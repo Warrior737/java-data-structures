@@ -1,4 +1,4 @@
-package TI.code.challenge;
+package leet.code;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -39,5 +39,4 @@ public class TwoSum {
         }
         return new int[] {};
     }
-
 }

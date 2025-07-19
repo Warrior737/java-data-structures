@@ -1,4 +1,4 @@
-package TI.code.challenge;
+package code.challenge;
 
 public class BestTimeToBuyAndSellStocks {
 

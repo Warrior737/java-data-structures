@@ -1,7 +1,5 @@
 package data.structures.linkedList;
 
-import test.Linked;
-
 public class LinkedListDS {
 
     Node head;
