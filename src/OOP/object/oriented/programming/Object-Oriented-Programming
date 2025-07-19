@@ -1,0 +1,26 @@
+Object Oriented Programming ( OOP )
+
+is a programming paradigm that uses "objects" to design computer programs.
+Objects contain data ( attributes ) and methods ( functions ) that perform actions on that data
+
+Key Concepts of OOP:tradeuctor
+
+Objects:  Fundamental block representing real-life objects
+Classes: Blueprint or template for creating objects, Define structure and behaviour
+
+Encapsulation:  hides the internal implementation details and protects data form unauthorized access
+Inheritance: The ability of objects to inherit details creating a relation parent-child
+Polymorphisms: its the ability of objects to take many forms
+  -  Overloading: same method name, different parameters
+  -  Overriding:   when you inherit a method and you keep the same name different behaviour
+Abstraction: is achieve with Interface or abstract classes and providing a way to show the details and hide the implementation
+
+SOLID Principles:
+
+S -> Single Responsibility - A Class should only handle a single Responsibility
+O -> Open/Close Principle -  means code should be easy to add new functionality without disrupting the existing code
+L -> Liskov Substitution - means subtypes should be substitutable for their base types without altering the correctness of the code
+I -> Interface - suggests using multiple smaller and more specific interfaces rather than a large monolithic interface
+D -> Dependency Inversion - leverage the work to a dependency manager - Hibernate - Spring
+
+

@@ -1,0 +1,54 @@
+Java
+
+Top Features of Java:
+- Platform Independent
+- Object-Oriented
+- High performance
+- Multithreaded
+
+
+JDK -> Java Development Kit: - Includes everything needed to develop, compile amd run java programs, its essentially a superset of JRE
+
+JRE -> Java Runtime Environment: - its the software environment to run java apps,Includes JVM and  core libraries and other components
+
+JVM -> Java Virtual Machine: - this is the core engine within the JRE that executes java byteCode, enabling the write-once run everywhere.
+                CORE FEATURES OF JVM
+         - Bytecode Execution
+         - Memory Management
+                STRUCTURE
+                    - Heap Area:  Where objects and arrays are stored
+                        -> Scanner sc = new Scanner(System.in);      // Scanner object is stored in the heap, sc its stored in the stack!
+                    - Method Area: stores class-level information such as class Structures, method bytecode, static variables, constant pools and Interfaces.
+                    - JVM Stacks: store method execution data, including local variables, method arguments, it can be fixed or dynamic
+         - Garbage Collector
+                - Finds objects in the java program and automatically removes them to free up memory.
+
+
+
+Java String Pool ?
+
+it's a place in the heap memory where all strings are defined in the program!
+
+
+Data Types:
+- Primitive: ( Boolean, byte, char, short, int, long, float, double ).
+- NON-Primitive: (String, Arrays, Class, Object, Interface )
+
+Class Variable: static variable, its define in the class but outside of any method constructor or block
+Dot Operator: Access the instance variables and methods of class objects
+
+Access Modifiers: Public, Private, Protected, Default
+
+Exceptions Build-in and User Exceptions
+
+
+
+
+
+
+
+
+
+
+
+

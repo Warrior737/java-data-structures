@@ -1,0 +1,14 @@
+Behavioral Design Patterns in Java
+
+Focus on how objects and classes interact and communicate in software developmemnt.
+
+
+
+Observer:
+
+Defines a one-to-many dependency between objects so that when one object changes state, all dependencies are notify to update automatically
+
+
+Command:
+
+Encapsulates a request as an object, thereby it allow to parametrize clients with different requests, queue or log requests.

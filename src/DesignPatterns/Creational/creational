@@ -1,0 +1,19 @@
+1. Creation Design Patterns in Java
+
+they focus on the process of creating objects, they aim to enhance flexibility and efficiency in object creation,
+allowing systems to remain independent of how their objects are constructed, compose and represent.
+
+
+- Singleton Design Pattern
+It guarantees that a class has just one instance and offers ways to access it globally.
+
+
+- Builder Design pattern
+helps building a complex object step by step and the final result return the object
+        Employee.Builder emplBuilder = new Employee.Builder();
+
+The @Builder annotation can be used to automatically generate a builder for our class
+
+
+- Factory Method:
+Defines an Interface for creating an object but it lets subclasses decide the class they want to instantiate

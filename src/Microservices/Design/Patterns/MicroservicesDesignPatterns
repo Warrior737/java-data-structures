@@ -1,0 +1,55 @@
+1️⃣ Decomposition Patterns
+
+🧩 Decompose by Business Capability
+Split services based on domain responsibilities (e.g., Order, Payment, Inventory).
+
+🪟 Decompose by Subdomain
+Follow Domain-Driven Design (DDD) to isolate bounded contexts.
+
+2️⃣ Integration Patterns
+
+🔗 API Gateway Pattern
+A single entry point for client requests; handles routing, auth, rate limiting.
+
+💬 Messaging Pattern
+Use asynchronous messaging (Kafka, RabbitMQ) for decoupled communication.
+
+3️⃣ Database Patterns
+
+🗃️ Database per Service
+Each microservice has its own database — ensures isolation and autonomy.
+
+🔀 Saga Pattern
+Manage distributed transactions via a series of local transactions and events.
+
+
+4️⃣ Reliability Patterns
+
+🔁 Circuit Breaker
+Prevent cascading failures by breaking the call if a service is down.
+
+🛡️ Bulkhead
+Isolate resources per service to avoid total system crash.
+
+⏳ Timeouts & Retries
+Set proper retry policies to avoid waiting endlessly for failed services.
+
+
+5️⃣ Observability Patterns
+
+📊 Centralized Logging
+Use tools like ELK Stack, Graylog for tracking logs.
+
+📈 Distributed Tracing
+Visualize call flows using OpenTelemetry, Jaeger, or Zipkin.
+
+📡 Health Checks
+Enable proactive monitoring and auto-recovery.
+
+6️⃣ Security Patterns
+
+🛂 Access Token (JWT)
+Stateless authentication across services.
+
+🔐 API Gateway Auth
+Centralized auth & SSL termination.mae

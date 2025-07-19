@@ -1,0 +1,19 @@
+Structural Design Pattern in Java
+
+Focus on how classes and objects are arrange to create larger, more complex structures in software development.
+They help organize relationships between objects, making systems more flexible, reusable and maintainable.
+
+
+
+Proxy:
+provides a surrogate or placeholder for another object to control access into it.
+
+
+
+Decorator:
+lets me attach new behaviours to an object by placing this object inside a special wrapper that contains these behaviours
+
+for example
+Notifier.Class -> extends What'sAppNotifier.class -> Override the method to notify via WA
+               -> extends FacebookNotifier.class  -> Override the method to notify via FB
+Now if the customer want to be notify with both WA and FB we create an Interface that calls both of them
