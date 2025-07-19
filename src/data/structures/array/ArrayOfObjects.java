@@ -1,4 +1,4 @@
-package DS.data.structures.array;
+package data.structures.array;
 
 class Student{
     public int id;

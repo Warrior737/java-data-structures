@@ -1,6 +1,4 @@
-package DS.data.structures.linkedList;
-
-import java.sql.SQLOutput;
+package data.structures.linkedList;
 
 public class Main {
 

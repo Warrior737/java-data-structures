@@ -1,4 +1,4 @@
-package DS.data.structures.stack;
+package data.structures.stack;
 
 import java.util.List;
 import java.util.Stack;

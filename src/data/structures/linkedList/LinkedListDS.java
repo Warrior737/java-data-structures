@@ -1,4 +1,4 @@
-package DS.data.structures.linkedList;
+package data.structures.linkedList;
 
 import test.Linked;
 
@@ -173,8 +173,6 @@ public class LinkedListDS {
             temp = after;
         }
     }
-
-
 
     public int getLength() {
         return length;
