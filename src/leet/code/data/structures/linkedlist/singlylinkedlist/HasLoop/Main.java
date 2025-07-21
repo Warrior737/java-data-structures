@@ -1,4 +1,4 @@
-package leet.code.HasLoop;
+package leet.code.data.structures.linkedlist.singlylinkedlist.HasLoop;
 
 public class Main {
 

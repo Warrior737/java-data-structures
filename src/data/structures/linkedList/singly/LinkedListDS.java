@@ -1,4 +1,4 @@
-package data.structures.linkedList;
+package data.structures.linkedList.singly;
 
 public class LinkedListDS {
 

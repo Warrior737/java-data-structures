@@ -1,4 +1,4 @@
-package leet.code.MiddleOfLinkedList;
+package leet.code.data.structures.linkedlist.singlylinkedlist.MiddleOfLinkedList;
 
 public class Main {
 
