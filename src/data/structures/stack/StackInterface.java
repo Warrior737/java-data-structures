@@ -1,9 +1,8 @@
 package data.structures.stack;
 
-import java.util.List;
 import java.util.Stack;
 
-public class StackDataStructure {
+public class StackInterface {
     /*******************************************************************************************************************
 
      Basic Info: -> Java Stack Class Represents a LIFO stack of Objects ( LAST IN - FIRST OUT )  - It's a synchronized implementation.
@@ -18,10 +17,12 @@ public class StackDataStructure {
      ********************************************************************************************************************/
 
     public static void main(String[] args){
-        stackImplementationJava();
+
+        stackImplementationIntJava();
+        stackImplementationStringJava();
     }
 
-    public static void stackImplementationJava() {
+    public static void stackImplementationIntJava() {
         Stack<Integer> intStack = new Stack<>();
 
         intStack.push(1);
@@ -33,4 +34,19 @@ public class StackDataStructure {
             System.out.println(intStack.pop());
         }
     }
+
+    public static void stackImplementationStringJava() {
+        Stack<String> stringStack = new Stack<>();
+
+        stringStack.push("God of War");
+        stringStack.push("Need for Speed");
+        stringStack.push("Call of Duty");
+
+        while (!stringStack.isEmpty()) {
+            System.out.println(stringStack.pop());
+        }
+    }
+
+
+
 }

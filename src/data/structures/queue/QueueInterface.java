@@ -3,7 +3,7 @@ package data.structures.queue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueDataStructure {
+public class QueueInterface {
     /*******************************************************************************************************************
 
      Basic Info: -> Java Queue follows the principle of FIFO "First In - First Out"
