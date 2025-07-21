@@ -1,7 +1,5 @@
 package leet.code.data.structures.linkedlist.singlylinkedlist.RemoveNthNodeFromEndOfList;
 
-import data.structures.linkedList.singly.LinkedListDS;
-
 class ListNode {
     int data;
     ListNode next;
