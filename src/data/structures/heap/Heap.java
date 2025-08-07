@@ -80,5 +80,37 @@ public class Heap {
     }
 
 
+    private void sinkDownMinHeap(int index) {
+        int minIndex = index;
+        while (true) {
+            int leftIndex = leftChild(index);
+            int rightIndex = rightChild(index);
+
+            if (leftIndex < heap.size() && heap.get(leftIndex) < heap.get(minIndex)) {
+                minIndex = leftIndex;
+            }
+
+            if (rightIndex < heap.size() && heap.get(rightIndex) < heap.get(minIndex)) {
+                minIndex = rightIndex;
+            }
+
+            if (minIndex != index) {
+                swap(index, minIndex);
+                index = minIndex;
+            } else {
+                return;
+            }
+        }
+    }
+
+    public void insertHeapMin(int value) {
+        heap.add(value);
+        int current = heap.size() - 1;
+
+        while (current > 0 && heap.get(current) < heap.get(parent(current))) {
+            swap(current, parent(current));
+            current = parent(current);
+        }
+    }
 
 }

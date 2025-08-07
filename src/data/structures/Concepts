@@ -1,0 +1,18 @@
+Arrays -> Collections of elements stored in contiguous memory locations, accessed by index.
+
+Linked List -> Linear Data Structure, consist in a sequence of nodes, the order of elements is determined by pointers to each node ( Singly, Doubly, Circular ).
+
+Tree ->  consists of nodes connected by edges ( parent - child typed of relationship )
+Binary Tree -> Each node has at most two children ( left and right )
+Binary Search Tree -> All values from left are strictly less than the nodes own value, All values from right are greater than the node's own value.
+                       _-> Breadth First -> nodes on the same level are visible before going to the next level - more like ( sideways direction )
+Binary Tree Traversal |_-> Depth First -> when traversal moves down the tree all the way to the leaf nodes - downwards direction
+
+
+Hash Tables -> Key value pairs with and underlying array of "buckets" or slots
+           -> Collision -> Open Addressing: Finding an alternative empty slot in the array when collision occurs ( Linear Probing )
+
+Graphs ->  vertices or nodes represent the individual object and Edges that represent connections or relations between vertices.
+
+
+

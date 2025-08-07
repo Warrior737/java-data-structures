@@ -5,13 +5,12 @@ allowing systems to remain independent of how their objects are constructed, com
 
 
 - Singleton Design Pattern
-It guarantees that a class has just one instance and offers ways to access it globally.
+It guarantees that a class has just one instance and offers ways to access it globally, provides a global point of access to it.
 
 
 - Builder Design pattern
 helps building a complex object step by step and the final result return the object
         Employee.Builder emplBuilder = new Employee.Builder();
-
 The @Builder annotation can be used to automatically generate a builder for our class
 
 
